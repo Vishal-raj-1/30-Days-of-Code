@@ -13,7 +13,7 @@ int main()
 {
     double meal_cost;
     int tip_percent,tax_percent;
-    
+    //ws == Whitespace 
     cin >> meal_cost >> ws >> tip_percent >> ws >> tax_percent; 
     
     solve(meal_cost,tip_percent,tax_percent);
